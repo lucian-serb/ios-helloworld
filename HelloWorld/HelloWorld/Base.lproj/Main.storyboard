@@ -44,6 +44,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
+                    <connections>
+                        <outlet property="label" destination="veS-xt-fK9" id="zJi-nb-eSM"/>
+                        <outlet property="textField" destination="R6H-MS-MUQ" id="F8J-ST-pfR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -54,6 +58,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HelloWorldViewController.h"/>
             <relationships>
                 <relationship kind="action" name="changeGreeting:"/>
+                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
             </relationships>
         </class>
     </classes>
