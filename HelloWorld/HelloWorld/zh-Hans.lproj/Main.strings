@@ -1,0 +1,9 @@
+
+/* Class = "IBUITextField"; accessibilityHint = "Type your name"; ObjectID = "R6H-MS-MUQ"; */
+"R6H-MS-MUQ.accessibilityHint" = "Type your name";
+
+/* Class = "IBUITextField"; placeholder = "Your Name"; ObjectID = "R6H-MS-MUQ"; */
+"R6H-MS-MUQ.placeholder" = "Your Name";
+
+/* Class = "IBUIButton"; normalTitle = "Hello"; ObjectID = "fph-Dx-5Z6"; */
+"fph-Dx-5Z6.normalTitle" = "Hello";

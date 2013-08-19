@@ -53,6 +53,9 @@
 		36A139A11795DB7500329F40 /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		36A139A31795DB7500329F40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36A139A51795DB7500329F40 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		36CA00C917C26C1400A1A4F7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		36CA00CA17C26C1400A1A4F7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		36CA00CB17C26C1400A1A4F7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +215,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 36A1396E1795DB7500329F40;
 			productRefGroup = 36A139781795DB7500329F40 /* Products */;
@@ -279,6 +283,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				36A139841795DB7500329F40 /* en */,
+				36CA00CA17C26C1400A1A4F7 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				36A1398D1795DB7500329F40 /* Base */,
+				36CA00C917C26C1400A1A4F7 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -295,6 +301,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				36A139A31795DB7500329F40 /* en */,
+				36CA00CB17C26C1400A1A4F7 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -455,6 +462,7 @@
 				36A139AB1795DB7500329F40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36A139AC1795DB7500329F40 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +471,7 @@
 				36A139AE1795DB7500329F40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
