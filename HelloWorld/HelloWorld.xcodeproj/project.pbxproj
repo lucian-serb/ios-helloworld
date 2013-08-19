@@ -21,6 +21,7 @@
 		36A1399C1795DB7500329F40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A1397E1795DB7500329F40 /* UIKit.framework */; };
 		36A139A41795DB7500329F40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36A139A21795DB7500329F40 /* InfoPlist.strings */; };
 		36A139A61795DB7500329F40 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A139A51795DB7500329F40 /* HelloWorldTests.m */; };
+		36CA00D217C2B6EF00A1A4F7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36CA00CE17C27AAA00A1A4F7 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +57,8 @@
 		36CA00C917C26C1400A1A4F7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		36CA00CA17C26C1400A1A4F7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		36CA00CB17C26C1400A1A4F7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		36CA00CD17C27AAA00A1A4F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		36CA00CF17C27AC200A1A4F7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		36CA00CD17C27AAA00A1A4F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		36CA00CF17C27AC200A1A4F7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36A139931795DB7500329F40 /* Images.xcassets in Resources */,
+				36CA00D217C2B6EF00A1A4F7 /* Localizable.strings in Resources */,
 				36A139851795DB7500329F40 /* InfoPlist.strings in Resources */,
 				36A1398E1795DB7500329F40 /* Main.storyboard in Resources */,
 			);
