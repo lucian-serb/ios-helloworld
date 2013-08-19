@@ -56,6 +56,8 @@
 		36CA00C917C26C1400A1A4F7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		36CA00CA17C26C1400A1A4F7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		36CA00CB17C26C1400A1A4F7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		36CA00CD17C27AAA00A1A4F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		36CA00CF17C27AC200A1A4F7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				36A139831795DB7500329F40 /* InfoPlist.strings */,
 				36A139861795DB7500329F40 /* main.m */,
 				36A139881795DB7500329F40 /* HelloWorld-Prefix.pch */,
+				36CA00CE17C27AAA00A1A4F7 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -304,6 +307,15 @@
 				36CA00CB17C26C1400A1A4F7 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36CA00CE17C27AAA00A1A4F7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36CA00CD17C27AAA00A1A4F7 /* en */,
+				36CA00CF17C27AC200A1A4F7 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
